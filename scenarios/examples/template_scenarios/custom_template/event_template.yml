@@ -1,0 +1,8 @@
+template1:
+  my_attr1: value1
+  my_attr2: 123
+  my_attr3: true
+template2:
+  my_attr1: yes
+  my_attr2: no
+

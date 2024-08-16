@@ -1,0 +1,9 @@
+#default: #全体に適用されるデフォルトのテンプレート
+#  eventType: 'MyDummyEvent'  #カスタムイベント名
+#  key_1: "default value"     #カスタム属性の追加
+#template1:  #カスタムテンプレート（テンプレート名：template1）
+#  attr_1: "value1"
+#  attr_2: 123
+#  attr_3: false
+
+

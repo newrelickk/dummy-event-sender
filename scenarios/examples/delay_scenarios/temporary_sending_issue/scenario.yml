@@ -1,0 +1,34 @@
+-
+  time: 0m
+  attributes:
+    my_attr: 1st
+# このデータ（time=10s）以降のデータが開始後1分のタイミングで一気に送信される
+-
+  time: 10s
+  delay: 50s
+  attributes:
+    my_attr: 2nd
+-
+  time: 20s
+  delay: 40s
+  attributes:
+    my_attr: 3rd
+-
+  time: 30s
+  delay: 30s
+  attributes:
+    my_attr: 4th
+-
+  time: 40s
+  delay: 20s
+  attributes:
+    my_attr: 5th
+-
+  time: 50s
+  delay: 10s
+  attributes:
+    my_attr: 6th
+-
+  time: 60s
+  attributes:
+    my_attr: 7th

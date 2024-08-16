@@ -1,0 +1,14 @@
+-
+  time: 0m
+  template: template1
+-
+  time: 10s
+  template: template1
+-
+  time: 20s
+-
+  time: 30s
+  template: template2
+-
+  time: 40s
+  template: template2

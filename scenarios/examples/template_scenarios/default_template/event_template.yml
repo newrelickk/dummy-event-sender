@@ -1,0 +1,5 @@
+default:
+  my_attr1: value1
+  my_attr2: 123
+  my_attr3: true
+

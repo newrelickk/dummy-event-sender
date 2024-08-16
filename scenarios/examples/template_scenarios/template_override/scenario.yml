@@ -1,0 +1,23 @@
+# defaultの属性がつくのみ
+-
+  time: 0m
+
+# defaultをtemplate1で上書き
+-
+  time: 10s
+  template: template1
+
+#  defaultに対して、attributesの値で上書き
+-
+  time: 20s
+  attributes:
+    common_attr: my_value_for_20s
+    my_attr: test1
+
+# defaultをtemplate1で上書きし、さらにattributesの値で上書き
+-
+  time: 30s
+  template: template1
+  attributes:
+    common_attr: my_value_for_30s
+    my_attr: test2

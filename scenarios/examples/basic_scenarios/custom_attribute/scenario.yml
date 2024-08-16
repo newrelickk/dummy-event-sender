@@ -1,0 +1,12 @@
+-
+  time: 0m
+  attributes:
+    my_attr: 1st
+-
+  time: 10s
+  attributes:
+    my_attr: 2nd
+-
+  time: 20s
+  attributes:
+    my_attr: 3rd

@@ -1,0 +1,13 @@
+-
+  time: 0m
+  attributes:
+    order: 1st
+-
+  time: 1m
+  delay: 2m # 本データの送信が2分遅延することで、次のデータ（time=2m）が先にインジェストされます。
+  attributes:
+    order: 2nd
+-
+  time: 2m
+  attributes:
+    order: 3rd

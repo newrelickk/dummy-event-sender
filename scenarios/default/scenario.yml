@@ -1,0 +1,24 @@
+#-
+#  # [必須] timestampに付与する相対時刻。1d 2h 3m 4sのように指定可能。先頭に「-」をつけることも可
+#  time: 0m
+#  # [任意] timestampに対して、実際にデータを送信する遅延時間。1mと書くとtimestampの日時より1分後にデータが送信される。記法はtimeと同じ
+#  delay: 0s
+#  # [任意] イベント送信数。同じ内容、同じデータで複数イベントを送りたい場合、2以上の数を設定する
+#  count: 1
+#  # [任意] このデータに適用するtemplate名。templateに記載の属性が付加できる。defaultテンプレートと指定が重複する場合、こちらの内容が優先される
+#  template: template1
+#  # [任意] 追加属性。templateと属性名が重複する場合、こちらの内容が優先される
+#  attributes:
+#    attr_1: my_value1
+#    attr_a: 123
+
+-
+  time: 0m
+-
+  time: 30s
+  count: 2
+  delay: 60s
+  attributes:
+    attr_1: test
+
+

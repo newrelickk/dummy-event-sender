@@ -1,0 +1,8 @@
+default:
+  common_attr: default_value
+  default_attr: 123
+template1:
+  common_attr: template1_value
+  template1_attr: foo
+
+
