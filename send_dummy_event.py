@@ -84,15 +84,17 @@ def current_time():
 
 
 def main(scenario_dir):
-    with open(os.path.join(scenario_dir, SCENARIO_FILE), 'r') as yml:
+    with open(os.path.join(scenario_dir, SCENARIO_FILE), 'r', encoding="utf-8") as yml:
         scenario = yaml.safe_load(yml)
 
     try:
-        with open(os.path.join(scenario_dir, EVENT_TEMPLATE), 'r') as yml:
+        with open(os.path.join(scenario_dir, EVENT_TEMPLATE), 'r', encoding="utf-8") as yml:
             templates = yaml.safe_load(yml)
     except FileNotFoundError:
-        templates = {}
         pass
+
+    if templates is None:
+        templates = {}
 
     default_event = {}
     if "default" in templates:
