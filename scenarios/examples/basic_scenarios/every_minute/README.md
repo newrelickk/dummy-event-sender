@@ -1,6 +1,6 @@
 # コマンド
 ```
-python3 send_dummy_event.py -s examples/basic_scenarios/every_minutes
+python3 send_dummy_event.py -s examples/basic_scenarios/every_minute
 ```
 
 # シナリオの概要

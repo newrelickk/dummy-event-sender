@@ -1,7 +1,7 @@
 # シナリオサンプル
 
 ## 基本シナリオ
-- [1分間に1イベント送信（5分間）](./basic_scenarios/every_minutes/)
+- [1分間に1イベント送信（5分間）](basic_scenarios/every_minute/)
 - [イベント名をデフォルト（ `DummyEvent` ）から変更](./basic_scenarios/custom_event_name/)
 - [同じタイミングで5回イベント送信](./basic_scenarios/multiple_events/)
 - [任意の属性をイベントに付加して送信](./basic_scenarios/custom_attribute/)
